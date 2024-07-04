@@ -1,0 +1,57 @@
+*{
+    margin: 5px;
+    padding: 5px;
+.third{
+    background-color: chartreuse;
+    text-align: right;
+}
+h2{
+    color: chocolate;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.image{
+    height: 500px;
+    width: 500px;
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px solid rebeccapurple;
+    box-shadow: 5px 15px 20px
+    blue;
+    border-radius: 10%;
+}
+div{
+    text-align: center;
+}
+button{
+    font-weight: 800;
+    background-color: brown;
+    border-radius: 30%;
+    color: chartreuse;
+}
+ .inline{
+    display: inline;
+    font-size: 30px;
+    background-color: red;
+} 
+.block{
+    display: block;
+    background-color: aquamarine;
+    border: 2px dashed navy;
+}
+.inblock{
+    display: inline-block;
+    color: chartreuse;
+}
+.display{
+    /* display: none; */
+    visibility: hidden;
+}
+.nodisplay{
+    border: 2px dotted brown;
+    display: none;
+}
